@@ -1,0 +1,538 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	height:100%;
+	width: 100%;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+.hero{
+	background: url(../images/kate-5383.png) no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	height:100%;
+	
+	position:relative;
+	margin-top:-2%;
+}
+
+.watermark {
+	position:absolute;
+	width:50%;
+	z-index:auto;
+}
+
+.pattern {
+	z-index: 0;
+	float: left;
+	position: absolute;
+	width: 100%;
+}
+
+.logo{
+	z-index:1;
+	position:absolute;
+	float: left;
+	margin-left: 20vw;
+	margin-top: 5vw;
+}
+
+#slogan {
+	font-family: 'Raleway', sans-serif;	
+	color: #163763;
+	font-size: 2.6vw;;
+	width: 25vw;
+	font-weight: 900;
+	position:relative;
+	margin-left:31.5vw;
+	padding-top: 20vw;
+	padding-bottom: 15vw;
+}
+
+
+.nav {
+	display:inline-block;
+	list-style-type: none;
+	margin:0 auto;
+	width: 100%;
+	padding:0;
+	text-align:center;
+	background-color: rgba(22, 55, 99, 0.3);
+	position:absolute;
+	bottom:0px;
+}
+
+.nav li {
+	display:inline;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight:bold;
+}
+
+.nav a{
+	display:inline-block;
+	padding: 15px;	
+}
+
+.nav a:hover{
+	color:#163783;	
+}
+
+.flag_gb{
+	margin-left:60px;		
+}
+
+.body_container{
+	margin-left:20%;	
+	margin-top: 70px;
+	margin-right:20%;
+}
+
+h3 {
+	font-family: 'Raleway';
+	color: #163763;
+	font-size: 30px;
+	text-align: center;
+	font-weight:400;
+	line-height:35px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	text-align:center;	
+	color: #21262e;
+	line-height:23px;
+}
+
+.intro {
+	width:100%;
+	text-align:center;
+}
+
+.introtext {
+	margin:0 auto;	
+	width:80%;
+	line-height: 23px;
+}
+
+.about_container{
+	background-color:#163763;
+	height: 347px;
+	margin:0 auto;
+	border-radius: 4px 4px 4px 4px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+}
+
+.about_text{
+	margin-left: 300px;
+	color: white;
+	position:relative;
+	width:70%;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 30px;
+	line-height:35px;
+	padding-top: 46px;
+}
+
+.kate_portrait{
+	float:left;	
+	padding-top: 11px;
+	padding-left:20px;
+}
+
+#aboutas{
+	color:white;	
+	text-align: left;
+	font-size: 15px;
+	font-weight:lighter;
+	margin-top: -30px;
+	line-height: 23px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.button1 {
+	background-color: #0bb6b5;
+	border-width:1px;
+	border-style: solid;
+	border-color: #0bb6b5;
+	border-radius: 4px 4px 4px 4px;
+	height: 49px;
+	width: 209px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;	
+	line-height: 17.9px;
+}
+
+.button1:hover{
+	color:#163873;
+}
+
+.sector{
+		margin-top:55px;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+}
+
+#sectortext{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+	text-align:center;
+}
+
+#chaticon{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:47px;
+}
+
+.box-container{display: inline-block; text-align: center; widtH:100%; height: 20px;}
+
+.box1{
+	
+	position:relative;
+	width:22%;
+	height:145px;
+	background-color:#0bb6b5;
+	margin-right:5px;
+	margin-left: 5px;
+	text-align:center;
+	border-radius: 4px 4px 4px 4px;
+	display: inline-block;
+}
+
+.box2{
+	
+	position:relative;
+	width:22%;
+	height:145px;
+	background-color:#1ba5bc;
+	margin-right:5px;
+	margin-left: 5px;
+	text-align:center;
+	border-radius: 4px 4px 4px 4px;
+	z-index:5;
+	display:inline-block;
+}
+
+h4{
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size:18px;
+	font-weight:400;	
+}
+
+.button2{
+	border-radius: 4px 4px 4px 4px;
+	border-style: #163763;
+	background-color: #163763;
+	color: white;
+	border: 1px solid #163763;
+	height:49px;
+	width:80%;
+	font-family: 'Raleway', sans-serif;
+	font-size:13px;	
+}
+
+#citation{
+	background-color: #163763;
+	height:416px;
+	margin-top: 100px;
+	width:100%;
+	text-align:center;
+	position:relative;
+	margin-right:auto;
+}
+
+.faqs-container{
+	width:955px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;	
+}
+
+.collapsible {
+    background-color: #fff;
+    color: #1ba5bc;
+	font-family: 'Raleway', sans-sarif;
+	font-weight:bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+	border-bottom: 1px solid #1ba5bc;
+}
+
+.active, .collapsible:hover {
+    background-color: #fff;
+}
+
+.collapsible:after {
+    content: url(../images/Plusopen.png);
+    color: #1ba5bc;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+	margin-right:10px;
+}
+
+.active:after {
+    content: url(../images/MinusIcon.png);
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #1ba5bc;
+}
+
+footer{
+	background-color: #9de2e1;	
+	margin-top:60px;
+	padding-top:35px;
+	position:relative;
+}
+
+.footer_container{
+	width:619px;
+	height:775px;
+	margin: 0 auto;	
+	position:relative;
+}
+
+input[type=text], input[type=email]{
+	width: 40%;
+	padding: 25px 29px;
+	margin: 0 auto;
+	font-family:'Raleway',sans-sarif;
+	font-weight:500;
+	font-size: 15px;
+	background: none;
+	border:none;
+	text-align:left;
+	border-bottom: 1px solid #163763;
+	color:#163763;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=email]:focus {
+    background-color: lightblue;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #163763;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #163763;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#163763;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #163763;
+}
+
+#footerpattern{
+	width:100%;
+	bottom:0px;
+	position:absolute;
+	z-index:0;
+}
+
+
+form{
+	width:619px;
+	margin-top:15px;
+	text-align:center;
+	border-top:1px solid #163763;
+	padding-bottom: 30px;
+	z-index:2;
+	position:relative;
+}
+
+#enquiry{
+	width:90%;
+	height:60px;
+}
+
+input[type=submit]{
+	width:210px;
+	height: 50px;	
+	color:white;
+	background-color:#163763;
+	border:none;
+	border-radius: 4px 4px 4px 4px;
+	margin-top: 30px;
+}
+
+input[type=submit]:hover{
+	color:lightblue;	
+}
+
+#warning{
+	background-color:#0bb6b5;
+	padding-top: 5px;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-bottom: 5px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+#ending{
+	height:195px;	
+}
+
+.quote{width:838px; margin:0 auto; padding-top:0px; font-size:25px; line-height:35px;}
+
+#watmark2{position:absolute; right:0; margin-top:-500px}
+
+@media screen and (max-width: 450px){
+body{margin:0;
+	height:100%;
+	width: 100%; padding:0;}
+
+.logo{
+		margin:0 auto;
+		padding:0;
+		width: 70%;
+	}
+.hero{ height: 600px; background-position: 60%;}
+#slogan{ font-size: 30px; width: 150px; margin-left:70px; padding-top: 120px;}
+.nav {padding:0;}
+.nav li{ width:100%; font-size: 20px; padding: 0; display:block;}
+.nav a {padding:3vw;}
+.watermark{width: 69%; margin-left:-20vw;}
+#footerpattern{width:100%;}
+	
+.body_container{margin:0 auto;}
+.intro{margin: 0 auto; width: 100%;}
+.about_container{width:100%; height: 100%; margin:0; padding:0; text-align:center;}
+.kate_portrait{float:none; text-align:center; padding:0; margin:0 auto;}
+#aboutas{margin:0 auto; width: 100%; padding:0; text-align:center; padding-bottom: 20px;}
+.about_text{margin:0 auto; position:relative; margin-top:-20%; text-align:center; padding-bottom: 20px;}
+
+.sector{
+	margin:0 auto; padding-top:50px; width: 100%;	
+}
+
+#sectortext{width:90%;}
+
+.box1, .box2 {
+	float:none;
+	width:100%;
+	
+	margin:0 auto;
+	padding-bottom: 10px;
+	padding-top: 10px;	
+	border-radius: 0px;
+}
+
+#citation{margin:0 auto; padding:0; text-align:center; width:100%; height: 100%;}
+.quote{width:90%; font-size:20px;}
+#lowquote{margin:0 auto; padding-bottom: 20px;}
+
+.faqs-container{margin: 0 auto; width: 100%; padding: 0;}
+.collapsible{font-size: 12px; padding:15px 15px; margin:0 auto;}
+
+.footer_container{margin:0 auto; width: 90%; padding-left: 5px; padding-right: 5px; height:100%;}
+form{margin:0 auto; width: 100%;}
+input[type=text], input[type=email]{
+	width: 90%; margin: 0 auto; padding-right: 0; 	
+}
+
+#warning{margin:0 auto;}
+#watmark2{width: 40%; margin-top:-150px;}
+#langs{ display:none;}
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 600px){
+body{margin:0;
+	height:100%;
+	width: 100%; padding:0;
+}
+	
+	
+.logo{
+	margin-left: 150px;
+		padding:0;
+		width: 40%;
+	}
+.hero{ height: 600px; background-position: 60%;}
+#slogan{margin-left: 250px; font-size: 35px; padding-top: 290px;}
+.nav {padding:0;}
+.nav li{ width:100%; font-size: 20px; padding: 0;}
+.nav a {padding:2vw;}
+.watermark{width: 60%; margin-left:-20vw;}
+#footerpattern{width:100%;}
+	
+.body_container{margin:0 auto;}
+.intro{margin:0 auto; width: 90%;}
+.about_container{width:100%; height: 100%; margin:0; padding:0; text-align:center;}
+.kate_portrait{text-align:center;margin:0 auto; padding: 20px 20px;}
+#aboutas{margin:0 auto; width: 90%; text-align:left; padding-bottom: 20px;}
+.about_text{margin:0 auto; position:relative; text-align:left; padding-bottom: 20px;}
+
+.sector{
+	padding-top:50px; width: 90%;	
+}
+
+.box-container{
+	width:100%;
+	height: 200px;
+}
+
+.box1, .box2{
+	margin: 5px 8px;
+	text-align:center;
+	width: 23%;
+}
+
+.button2 {
+	width: 80%;	
+}
+
+#citation{margin:0 auto; padding:0; text-align:center; width:100%;}
+.quote{width:90%; font-size:20px;}
+#lowquote{margin:0 auto; padding-bottom: 20px;}
+
+.faqs-container{margin: 0 auto; width: 90%; padding: 0;}
+.collapsible{font-size: 13px;}
+
+.footer_container{margin:0 auto; width: 90%; padding-left: 5px; padding-right: 5px; height:100%;}
+form{margin:0 auto; width: 90%;}
+input[type=text], input[type=email]{
+	width: 44%;	
+}
+
+#warning{margin:0 auto;}
+#watmark2{width: 30%; margin-left:px; margin-top: -400px;}	
+.button1{  margin-top: 10px;}
+}
